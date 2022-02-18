@@ -1,1 +1,54 @@
 /* styles.css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content 
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.left
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.odin-logo-container
+{
+    position: relative;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+}
+.photo-credits
+{
+    text-align: center;
+    color: grey;
+}
+.photo-credits a
+{
+    color: inherit;
+}
+
+.right
+{
+    background-color: cyan;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.signup-info
+{
+    background-color: red;
+}
+.signup-form
+{
+    background-color: green;
+}
