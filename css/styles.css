@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 800;
 }
 
 .content 
@@ -23,7 +25,7 @@
 .odin-logo-container
 {
     position: relative;
-    top: 25%;
+    top: 25vh;
     display: flex;
     justify-content: center;
 }
@@ -31,6 +33,7 @@
 {
     text-align: center;
     color: grey;
+    font-size: 0.6rem;
 }
 .photo-credits a
 {
@@ -39,22 +42,29 @@
 
 .right
 {
-    background-color: cyan;
+    background-color: rgb(243, 243, 243);
     flex: 2;
     display: flex;
     flex-direction: column;
 }
 .signup-info
 {
-    background-color: red;
+    margin-top: 10vh;
+    margin-bottom: 24px;
+}
+.signup-info p
+{
+    margin: 12px;
 }
 .signup-form-container
 {
-    background-color: green;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.193) 0px 10px 10px -10px;
 }
-.signup-form
+.signup-form-container p
 {
-    background-color: aquamarine;
+    font-size: 1.2rem;
+    margin: 12px;
 }
 .signup-form .form-row
 {
@@ -63,5 +73,26 @@
 .signup-form .form-input
 {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    margin: 12px;
+    font-size: 0.6rem;
+}
+.account-creation
+{
+    margin-left: 12px;
+    margin-top: 6px;
+}
+.account-creation button
+{
+    background-color: #596D48;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 12px;
+}
+.account-creation p
+{
+    font-size: 0.8rem;
 }
