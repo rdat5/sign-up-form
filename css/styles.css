@@ -48,7 +48,20 @@
 {
     background-color: red;
 }
-.signup-form
+.signup-form-container
 {
     background-color: green;
+}
+.signup-form
+{
+    background-color: aquamarine;
+}
+.signup-form .form-row
+{
+    display: flex;
+}
+.signup-form .form-input
+{
+    display: flex;
+    flex-direction: column
 }
