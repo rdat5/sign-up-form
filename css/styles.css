@@ -7,6 +7,11 @@
     font-weight: 800;
 }
 
+@font-face {
+    font-family: Norse-Bold;
+    src: url("../Norse-Bold.otf") format("opentype");
+}
+
 .content 
 {
     height: 100vh;
@@ -21,6 +26,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url(../img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
 }
 .odin-logo-container
 {
@@ -28,11 +35,20 @@
     top: 25vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 12px;
+}
+.odin-logo-container .odin-text
+{
+    font-family: 'Norse-Bold';
+    font-size: 3rem;
 }
 .photo-credits
 {
     text-align: center;
-    color: grey;
+    color: white;
     font-size: 0.6rem;
 }
 .photo-credits a
@@ -49,6 +65,7 @@
 }
 .signup-info
 {
+    width: 550px;
     margin-top: 10vh;
     margin-bottom: 12px;
     padding: 8px;
